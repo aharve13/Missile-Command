@@ -1,0 +1,48 @@
+Noah Greenbaum
+ngreenb6@jhu.edu
+Gregory Adoff
+gadoff1@jhu.edu
+Alex Harvey
+aharve13@jhu.edu
+
+600.120.01 - Intermediate Programming
+Assignment 9 - Interactive Showdown
+
+Missile Command
+
+=======================================
+The win occurs when all incoming missiles are 
+destroyed (there are 25 missiles). The loss 
+occurs when all bases are destroyed (there are 3).
+
+A win will not be achieved unless all 25 
+missiles are destroyed - this can take some 
+time as the missiles are generated randomly.
+
+A loss will only be achieved if all bases are 
+destroyed - cities are there for decoration, 
+and maybe points in the next version.
+
+The game starts immediately on the program run.
+
+The game, once won or lost, must be quit and 
+manually restarted.
+
+The incoming missiles do not give off blasts, 
+only the outgoing defensive missiles.
+
+The bases are on each side and the middle, and 
+the cities are in the spaces in-between.
+
+The closest non-hit base will fire an outgoing 
+missile. The outgoing missiles move faster than 
+the incoming missiles. There is no ammo count.
+
+The game currently runs at 10fps (every 100ms). 
+It can run at faster rates, this is just an 
+arbitrary fps choice.
+
+The incoming missiles fire directly towards the 
+middle of the cities and bases, and are considered 
+as hitting the target when they reach the bottom of 
+the screen (not the edge of the city or base).
